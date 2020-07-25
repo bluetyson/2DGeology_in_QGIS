@@ -391,7 +391,7 @@ Click "Plot" at the bottom and you'll see a profile with the points of our data 
 
 Next, expand the options for intersection the line layer by clicking on that title. You'll pick the faults .geojson as the layer here, and maybe add the Id field to bring over the fault name and change the color to black.
 
-Lastly, we'll attach the outcrop information to our transect by intersection that polygon layer with our profile. Pick the polygon layer, then change the "Classification field" to "LABEL" and click "Intersect." You'll have an option to pick colors that get projected onto your profile and you want to make sure these match the style we have on the map. You can do this easily with the "Pick Color" option. Grab the colors directly off your map display with the eyedropper cursor to match the labels such as "Kph."
+Lastly, we'll attach the outcrop information to our transect by intersecting that polygon layer with our profile. Pick the polygon layer, then change the "Classification field" to "LABEL" and click "Intersect." You'll have an option to pick colors that get projected onto your profile and you want to make sure these match the style we have on the map. You can do this easily with the "Pick Color" option. Grab the colors directly off your map display with the eyedropper cursor to match the labels such as "Kph."
 
 ![Pick color choice](images/PickingColors_scaled.png)
 
@@ -450,7 +450,7 @@ You'll be able to turn off the labels so you can see what you're doing. You can 
 
 *Draw that cross section!*
 
-The hard and fun part is to use the information we pinned to our profile to try and draw the beddings structures underground. Think back to the diagrams in the first part of this tutorial showing how the intersection of a fault line, for example, my adjust bedding relationships, and what can we interpret based on what we know? We're just creating a model and that's all cross sections ever are because it's impossible to get bore hole data (actual underground sampling) everywhere.
+The hard and fun part is to use the information we pinned to our profile to try and draw the beddings structures underground. Think back to the diagrams in the first part of this tutorial showing how the intersection of a fault line, for example, my adjused bedding relationships, and what can we interpret based on what we know? We're just creating a model and that's all cross sections ever are because it's impossible to get bore hole data (actual underground sampling) everywhere.
 
 One rule of thumb we'll use, is assuming sedimentary beds are uniform in thickness unless you have data that implies otherwise.
 
